@@ -1,3 +1,10 @@
+# Text type: str
+# Numeric type: int,float,complex
+# Sequence type: list,tuple,range
+# Mapping type: dict
+# Set type: set, frozenset
+# Boolean type: bool
+# Binary type: bytes, bytearray, memoryview
 x = "Hello world"
 print(type(x))  # string
 x = 20
@@ -26,11 +33,3 @@ x = bytearray(5)
 print(type(x))
 x = memoryview(bytes(5))
 print(type(x))
-
-# Text type: str
-# Numeric type: int,float,complex
-# Sequence type: list,tuple,range
-# Mapping type: dict
-# Set type: set, frozenset
-# Boolean type: bool
-# Binary type: bytes, bytearray, memoryview
