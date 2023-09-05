@@ -1,4 +1,9 @@
 from math import *  # module
+
+thisIsInt = 3
+thisIsFloat = 3.1
+thisIsComplex = 4j
+
 print(5)
 print(3*4+5)
 print(5+4*3)
