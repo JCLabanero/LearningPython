@@ -46,3 +46,6 @@ print("Equal" if 2+2 == 4 else "Not Equal")
 grade = 75
 print("pass" if grade > 75 else "failed")
 print("pass" if grade >= 75 else "failed")
+grade = 100
+print("pass" if grade >= 75 and grade < 100 else "failed" if grade <
+      75 and grade > 60 else "lagpas sa ipinagbabawal")

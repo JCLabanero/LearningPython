@@ -4,10 +4,10 @@ student_age = 22
 student_con_info = f"09201515123"
 student_address = "CSJDM, Bulacan"
 student_status = True
-# print using F-string
+# print using F-string or Formated string
 print(f"Output#1\nID: {student_id}", f"Full name: {student_fullname}",
       f"Age: {student_age}", f"Contact: {student_con_info}", f"Address: {student_address}", f"Status: {student_status}", sep="\n")
-# print using string.format
+# print using string.format or string method
 print("Output#2\nID: {}".format(student_id), "Name: {}\nAge: {}\nContact: {}\nAddress: {}\nStatus: {}".format(
     student_fullname, student_age, student_con_info, student_address, student_status), sep="\n")
 # print using formatted with %

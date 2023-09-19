@@ -5,12 +5,12 @@ def printwithforloop(typetoloop):
 
 typeStr = "JOHN"
 typeList = ["apple", "banana", "cheery"]  # list
-typeTuple = ("one", "two", "three")
+typeTuple = ("one", "two", "three")#immutable
 
 typeRange = range(2)
 typeObject = {"name": "John", "age": 36, "address": "csjdm"}
-typeSet = {"apple", "banana", "cherry"}
-typeFrozenSet = frozenset({"apple", "banana", "cherry"})
+typeSet = {"apple", "banana", "cherry"}#unordered
+typeFrozenSet = frozenset({"apple", "banana", "cherry"})#immutable and unordered sheesh
 printwithforloop(typeStr)
 printwithforloop(typeList)
 printwithforloop(typeTuple)
